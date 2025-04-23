@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://zeytal.com">
-    <h3 align="center">Zeytal</h3>
+    <h2 align="center">Zeytal</h2>
   </a>
 </p>
 
