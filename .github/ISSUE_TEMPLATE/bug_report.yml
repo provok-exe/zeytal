@@ -1,4 +1,4 @@
-name: "Zeytal CLI Bug report"
+name: "Zeytal CLI Bug Report"
 description: File a bug report for the `zeytal` CLI
 title: "[bug]: "
 labels: ["bug"]
