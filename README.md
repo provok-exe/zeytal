@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://zeytal.com">
-    <h2 align="center">Zeytal</h2>
+  <a href="https://www.npmjs.com/package/zeytal">
+    <h2 align="center">Zeytal CLI</h2>
   </a>
 </p>
 
@@ -14,7 +14,7 @@
 </p>
 <br/>
 
-> This repository is dedicated to handling issues, feature requests, and discussions related to Zeytal. The source code for this package is maintained elsewhere in a private repository.
+> This repository is dedicated to handling issues, feature requests, and discussions **related to the CLI**. The source code for this package is maintained elsewhere in a private repository.
 
 ## Zeytal
 
