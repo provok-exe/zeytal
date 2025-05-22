@@ -1,7 +1,7 @@
-name: "Zeytal CLI Bug Report"
-description: File a bug report for the `zeytal` CLI
+name: "CLI Bug Report"
+description: File a bug report for the `zeytal` CLI package
 title: "[bug]: "
-labels: ["bug"]
+labels: ["bug", "scope: cli"]
 body:
   - type: markdown
     attributes:

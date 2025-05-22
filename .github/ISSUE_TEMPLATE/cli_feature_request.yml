@@ -1,7 +1,7 @@
-name: "Zeytal CLI Feature Request"
-description: Create a feature request for `zeytal` CLI
+name: "CLI Feature Request"
+description: Create a feature request for `zeytal` CLI package
 title: "[feat]: "
-labels: ["feature request"]
+labels: ["feature request", "scope: cli"]
 body:
   - type: markdown
     attributes:
