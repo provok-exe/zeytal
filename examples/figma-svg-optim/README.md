@@ -1,6 +1,6 @@
-# Zeytal Basic Setup
+# Zeytal SVGs Optimization
 
-Here’s the simplest [Zeytal](https://zeytal.com) project setup you can find.
+Here’s an example of how to extract and optimize your Figma SVGs efficiently using [Zeytal](https://zeytal.com).
 
 ## How to use
 
@@ -9,15 +9,15 @@ Here’s the simplest [Zeytal](https://zeytal.com) project setup you can find.
 1. Execute [`zeytal`](https://npmjs.com/package/zeytal) commands like so:
 
 ```bash
-npm x zeytal generate
+npm x zeytal assets
 ```
 
 ```bash
-yarn zeytal generate
+yarn zeytal assets
 ```
 
 ```bash
-pnpm zeytal generate
+pnpm zeytal assets
 ```
 
 The CLI will extract and transform data based on the Figma source files you provide in your project’s dashboard.
@@ -26,8 +26,12 @@ Click here for more info on [how to use the CLI](https://zeytal.com/docs/zeytal-
 
 ## What this example does
 
-“Zeytal basic setup” is an example of the most rudimental Zeytal CLI configuration.
+“Zeytal SVGs Optimization” is an example of how to extract SVGs from Figma and optimize them with Zeytal CLI.
 
-Your `zeytal.json` config file is ready to be updated with your tweaks. However, nothing has been overridden yet for the beginning of your project.
+Your `zeytal.json` config file tweaks the assets default config so you:
+
+1. only extract SVGs from your `published` Figma files
+1. pass a custom assets directory to generate SVGs into
+1. optimize your SVGs using a custom SVGO config
 
 Click here for more info on [how to tweak your CLI config ](https://zeytal.com/docs/cli-config-file?utm_source=github&utm_medium=readme&utm_campaign=zeytal-example).

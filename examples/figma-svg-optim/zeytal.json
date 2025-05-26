@@ -1,0 +1,24 @@
+{
+  "$schema": "node_modules/zeytal/schema/zeytal.json",
+  "assets": {
+    "figmaFilesVersion": "published",
+    "directoryPath": "public/assets",
+    "optimize": {
+      "svg": {
+        "floatPrecision": 3,
+        "plugins": [
+          {
+            "name": "preset-default",
+            "params": {
+              "overrides": {
+                "removeViewBox": false
+              }
+            }
+          },
+          "removeDimensions",
+          "removeXMLNS"
+        ]
+      }
+    }
+  }
+}
