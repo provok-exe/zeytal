@@ -1,5 +1,47 @@
 # zeytal
 
+## 1.2.1
+
+### Patch Changes
+
+- fix(config): package.json no canary name in stable releases
+
+## 1.2.0
+
+### Minor Changes
+
+- b222198: feat(variables): Variables remodelling and translations feature v0
+
+### Patch Changes
+
+- 08227cc: feat(config): Figma variables collectionsIgnorePrefix feature
+- 8e96c8a: fix(config): default values update
+- 7065119: fix(types): Cleaner types after variables config update
+
+## 1.2.0-canary.3
+
+### Patch Changes
+
+- feat(config): Figma variables collectionsIgnorePrefix feature
+
+## 1.2.0-canary.2
+
+### Patch Changes
+
+- fix(types): Cleaner types after variables config update
+
+## 1.2.0-canary.1
+
+### Patch Changes
+
+- fix(config): default values update
+
+## 1.2.0-canary.0
+
+### Minor Changes
+
+- feat(variables): Variables remodelling and translations feature v0
+
 ## 1.1.7
 
 ### Patch Changes
