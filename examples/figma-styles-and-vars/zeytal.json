@@ -20,6 +20,14 @@
       "targets": ["ts", "scss"],
       "colors": {
         "format": "hsla"
+      },
+      "numbers": {
+        "format": [
+          {
+            "mapping": ["font-size-", "letter-spacing-", "line-height-"],
+            "unit": "rem"
+          }
+        ]
       }
     }
   }

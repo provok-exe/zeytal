@@ -1,0 +1,88 @@
+{
+  "$schema": "node_modules/zeytal/schema/zeytal.json",
+  "styles": {
+    "figmaFilesVersion": "live",
+    "directoryPath": "styles/ds/styles",
+    "formats": {
+      "targets": ["tw"],
+      "colors": {
+        "format": "rgba"
+      },
+      "fonts": {
+        "unit": "rem"
+      }
+    }
+  },
+  "variables": {
+    "collectionsIgnorePrefix": "_",
+    "directoryPath": "styles/ds/variables",
+    "formats": {
+      "targets": ["tw"],
+      "colors": {
+        "format": "rgba"
+      },
+      "numbers": {
+        "format": [
+          {
+            "mapping": ["font-size-", "letter-spacing-", "line-height-"],
+            "unit": "rem"
+          }
+        ]
+      }
+    }
+  },
+  "tailwind": {
+    "tokensPrefix": "ds-",
+    "globalModes": [["-light", "-dark"]],
+    "globalIgnoreTokenNames": [
+      "responsive-sizes-",
+      "fluid-typo.*view-(768x|1408x)$"
+    ],
+    "globalStripTokenNames": ["borders-", "outlines-"],
+    "globalRewriteTokenNames": {
+      "-negative$": "-neg",
+      "outline-width-": "outline-"
+    },
+    "namespaces": {
+      "fontSize": {
+        "tokensMapping": ["basic-typo-font-size-", "fluid-typo-font-size-"],
+        "stripTokenNames": ["basic-typo-font-size-", "fluid-typo-font-size-"],
+        "rewriteTokenNames": { "view-(\\d+x)": "$1" }
+      },
+      "lineHeight": {
+        "tokensMapping": ["basic-typo-line-height-", "fluid-typo-line-height-"],
+        "stripTokenNames": [
+          "basic-typo-line-height-",
+          "fluid-typo-line-height-"
+        ],
+        "rewriteTokenNames": { "view-(\\d+x)": "$1" }
+      },
+      "color": {
+        "tokensMapping": ["colors-"],
+        "stripTokenNames": ["colors-"]
+      },
+      "spacing": {
+        "tokensMapping": ["spacings-", "stack-spacings-", "elements-sizes-"],
+        "stripTokenNames": ["spacings-", "stack-spacings-"],
+        "rewriteTokenNames": {
+          "stack-stack-": "stack-",
+          "elements-sizes-(.*)-width": "el-size-$1-w",
+          "elements-sizes-(.*)-height": "el-size-$1-h",
+          "elements-sizes-(.*)-min-width": "el-size-$1-minw",
+          "elements-sizes-(.*)-max-width": "el-size-$1-maxw",
+          "elements-sizes-(.*)-min-height": "el-size-$1-minh",
+          "elements-sizes-(.*)-max-height": "el-size-$1-maxh",
+          "action-element-": "action-el-"
+        }
+      },
+      "radius": {
+        "tokensMapping": ["radii-"],
+        "stripTokenNames": ["radii-"]
+      },
+      "shadow": {
+        "tokensMapping": ["shadow-"],
+        "stripTokenNames": ["^shadow-", "-shadow$"]
+      }
+    }
+  }
+}
