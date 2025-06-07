@@ -1,5 +1,11 @@
 # zeytal
 
+## 1.3.3
+
+### Patch Changes
+
+- fix(config): Allowing Figma files pages batch size setting tweaks
+
 ## 1.3.2
 
 ### Patch Changes
