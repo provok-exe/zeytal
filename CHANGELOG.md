@@ -1,5 +1,23 @@
 # zeytal
 
+## 1.3.1
+
+### Patch Changes
+
+- fix(config): `zeytal.json` tailwind props docs
+
+## 1.3.0
+
+### Minor Changes
+
+- a834fd1: feat(tailwind): Generating TailwindCSS v4 config files with mode support
+
+## 1.3.0-canary.0
+
+### Minor Changes
+
+- feat(tailwind): Generating TailwindCSS v4 config files with mode support
+
 ## 1.2.1
 
 ### Patch Changes
