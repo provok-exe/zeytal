@@ -34,4 +34,4 @@ Your `zeytal.json` config file tweaks the assets default config so you:
 1. pass a custom assets directory to generate SVGs into
 1. optimize your SVGs using a custom SVGO config
 
-Click here for more info on [how to tweak your CLI config ](https://zeytal.com/docs/cli-config-file?utm_source=github&utm_medium=readme&utm_campaign=zeytal-example).
+Click here for more info on [how to tweak your CLI config ](https://zeytal.com/docs/cli-config-files?utm_source=github&utm_medium=readme&utm_campaign=zeytal-example).

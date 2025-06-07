@@ -37,4 +37,4 @@ Your `zeytal.json` config file tweaks the styles and variables default config 
 1. generate font styles in `rem`
 1. ignore Figma variable collections prefixed with `_`
 
-Click here for more info on [how to tweak your CLI config ](https://zeytal.com/docs/cli-config-file?utm_source=github&utm_medium=readme&utm_campaign=zeytal-example).
+Click here for more info on [how to tweak your CLI config ](https://zeytal.com/docs/cli-config-files?utm_source=github&utm_medium=readme&utm_campaign=zeytal-example).

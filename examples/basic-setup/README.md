@@ -30,4 +30,4 @@ Click here for more info on [how to use the CLI](https://zeytal.com/docs/zeytal-
 
 Your `zeytal.json` config file is ready to be updated with your tweaks. However, nothing has been overridden yet for the beginning of your project.
 
-Click here for more info on [how to tweak your CLI config ](https://zeytal.com/docs/cli-config-file?utm_source=github&utm_medium=readme&utm_campaign=zeytal-example).
+Click here for more info on [how to tweak your CLI config ](https://zeytal.com/docs/cli-config-files?utm_source=github&utm_medium=readme&utm_campaign=zeytal-example).

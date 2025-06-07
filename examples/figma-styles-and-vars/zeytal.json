@@ -2,7 +2,7 @@
   "$schema": "node_modules/zeytal/schema/zeytal.json",
   "styles": {
     "figmaFilesVersion": "saved",
-    "directoryPath": "styles/ds",
+    "directoryPath": "styles/ds/styles",
     "formats": {
       "targets": ["ts", "scss"],
       "colors": {
@@ -15,7 +15,7 @@
   },
   "variables": {
     "collectionsIgnorePrefix": "_",
-    "directoryPath": "styles/ds",
+    "directoryPath": "styles/ds/variables",
     "formats": {
       "targets": ["ts", "scss"],
       "colors": {
