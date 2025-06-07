@@ -1,5 +1,11 @@
 # zeytal
 
+## 1.3.2
+
+### Patch Changes
+
+- fix(config): no default styles and vars format targets
+
 ## 1.3.1
 
 ### Patch Changes
