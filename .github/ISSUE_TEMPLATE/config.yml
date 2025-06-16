@@ -2,5 +2,5 @@ blank_issues_enabled: false
 
 contact_links:
   - name: Ask a Question
-    url: https://github.com/hyperstonk/zeytal/discussions
+    url: https://github.com/provok-exe/zeytal/discussions
     about: Open a discussion in our forum.
