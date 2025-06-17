@@ -38,3 +38,7 @@ Your `zeytal.json` config file tweaks the `styles`, `variables`, and `tailwind
 1. auto-configures `styles-tw.css` and `variables-tw.css` to work with TailwindCSS v4 out of the box
 
 Click here for more info on [how to tweak your CLI config ](https://zeytal.com/docs/tailwind-config?utm_source=github&utm_medium=readme&utm_campaign=zeytal-example).
+
+## Figma Sample File
+
+To try this setup easily, you can use our [free Design System sample file](https://www.figma.com/community/file/1482453731920989064).

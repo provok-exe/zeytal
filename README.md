@@ -41,3 +41,7 @@ Read our vision for Zeytal at [zeytal.com/vision](https://zeytal.com/vision).
 ## Documentation
 
 For details on how to use Zeytal, check out our [documentation](https://zeytal.com/docs).
+
+## Figma Sample File
+
+To try Zeytal easily, you can use our [free Design System sample file](https://www.figma.com/community/file/1482453731920989064).
