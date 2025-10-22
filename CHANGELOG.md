@@ -1,5 +1,41 @@
 # zeytal
 
+## 1.4.1
+
+### Patch Changes
+
+- fix(tokens): Cleaner tailwind config generation.
+  - Global mode rewrites to rewrite matching parts of the generated scoped CSS mode declarations.
+  - Support for tailwind separate `@theme inline` and `@theme` directive.
+  - Optional unitless clones for number variables and styles.
+  - Global root to theme option to move matching Figma styles and Figma variables from the generated `:root` scope to TailwindCSS `@theme` directive.
+  - All generated variables and styles prefixed with `var-` and `style-` by default.
+  - Shadow maker with spread support.
+
+## 1.4.0
+
+### Minor Changes
+
+- 48972c6: feat(config): No more paid plans and better workload structure.
+  - No limits on any features
+  - Doing most of the processing on the CLI package side instead of on the API’s server. This way, assets, styles, and variables data fetching can last for more than 60 secs.
+  - Using commander instead of citty
+  - node-fetch instead of axios and ofetch
+  - Updated dependencies
+    - svgo@4.0.0
+
+## 1.3.4
+
+### Patch Changes
+
+- chore(setup): Log new version if available
+
+## 1.3.4-canary.0
+
+### Patch Changes
+
+- chore(setup): Log new version if available
+
 ## 1.3.3
 
 ### Patch Changes
