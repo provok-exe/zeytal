@@ -1,5 +1,12 @@
 # zeytal
 
+## 1.4.2
+
+### Patch Changes
+
+- fix(config): Tailwind `globalModesRewrites` renamed
+  - TailwindCSS config generation `globalModesRewrites` setting renamed to `globalRewriteModes` for a more consistent API.
+
 ## 1.4.1
 
 ### Patch Changes
